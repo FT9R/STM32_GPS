@@ -17,7 +17,7 @@ $GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,4*1A
 $GPGSV,1,1,00,0*65                                                          
 $BDGSV,1,1,00,0*74                                                         
 $GNRMC,001643.272,V,,,,,0.000,,,,,N,V*00                                   
-$GNVTG,,,,,,,,,N*2E
+> $GNVTG,,,,,,,,,N*2E
 
 So you can see that the frames are different. In addition, the sentences inside the frame go one after the other without time delays. And then, after ~1sec, another frame follows.
 The minmea library is capable of taking a single sentence and parsing it. But in the UART RX buffer, the sentences are arranged sequentially.
