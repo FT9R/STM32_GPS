@@ -11,12 +11,12 @@ There are at least 2 common GPS receivers on the market: NEO-6M and E108 GN02D. 
 > $GNVTG,,,,,,,,,N*2E
 * E108 GN02D default frame
 > $GNGGA,001643.272,,,,,0,00,99.99,,,,,,*4F                                     
-> $GNGLL,,,,,,V,N*7A                                                           
-> $GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,1*1F                            
-> $GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,4*1A                            
-> $GPGSV,1,1,00,0*65                                                          
-> $BDGSV,1,1,00,0*74                                                         
-_ $GNRMC,001643.272,V,,,,,0.000,,,,,N,V*00 _                                   
+$GNGLL,,,,,,V,N*7A                                                           
+$GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,1*1F                            
+$GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,4*1A                            
+$GPGSV,1,1,00,0*65                                                          
+$BDGSV,1,1,00,0*74                                                         
+$GNRMC,001643.272,V,,,,,0.000,,,,,N,V*00                                   
 > $GNVTG,,,,,,,,,N*2E
 
 ### Task of the project
