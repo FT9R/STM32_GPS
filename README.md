@@ -1,6 +1,6 @@
 # STM32 GPS
 There are at least 2 common GPS receivers on the market: NEO-6M and E108 GN02D. Current project deal with both. Let's see the default frames from these receivers:
-# NEO-6M default frame
+## NEO-6M default frame
 $GNGGA,001643.272,,,,,0,00,99.99,,,,,,*4F                                     
 $GNGLL,,,,,,V,N*7A                                                           
 $GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,1*1F                            
@@ -9,7 +9,7 @@ $GPGSV,1,1,00,0*65
 $BDGSV,1,1,00,0*74                                                         
 $GNRMC,001643.272,V,,,,,0.000,,,,,N,V*00                                   
 $GNVTG,,,,,,,,,N*2E
-# E108 GN02D default frame
+### E108 GN02D default frame
 $GNGGA,001643.272,,,,,0,00,99.99,,,,,,*4F                                     
 $GNGLL,,,,,,V,N*7A                                                           
 $GNGSA,A,1,,,,,,,,,,,,,,,,99.99,99.99,99.99,1*1F                            
